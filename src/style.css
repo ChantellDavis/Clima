@@ -1,0 +1,9 @@
+body {
+    background-color: rgb(216, 216, 245) ;
+}
+
+.main-box {
+background-color: white;
+max-width: 600px;
+margin: 0 auto;
+}
