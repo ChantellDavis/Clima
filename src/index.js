@@ -5,13 +5,13 @@ function formatDate(date) {
 let hours = date.getHours();
 let minutes = date.getMinutes();
 
-if (hours > 10) {
-    let hours = `0${hours}`
-};
+// if (hours > 10) {
+//     let hours = `0${hours}`
+// };
 
-if (minutes > 10) {
-    let minutes = `0${minutes}`
-};
+// if (minutes > 10) {
+//     let minutes = `0${minutes}`
+// };
 
 let days = [
     "Sunday",
