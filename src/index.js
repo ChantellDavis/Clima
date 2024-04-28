@@ -30,7 +30,7 @@ let days = [
 
 
 let formattedDate = days[day];
-return `${formattedDate}, ${hours}:${minutes}`;
+return `${formattedDate} ${hours}:${minutes}`;
 
 }
 
