@@ -1,17 +1,17 @@
 
 
 function formatDate(date) {
-    let day = days[date.getDay()];
+let day = date.getDay();
 let hours = date.getHours();
 let minutes = date.getMinutes();
 
-// if (hours > 10) {
-//     let hours = `0${hours}`
-// };
+if (hours < 10) {
+    let hours = `0${hours}`
+};
 
-// if (minutes > 10) {
-//     let minutes = `0${minutes}`
-// };
+if (minutes < 10) {
+    let minutes = `0${minutes}`
+};
 
 let days = [
     "Sunday",
@@ -25,7 +25,7 @@ let days = [
 
 
 let formattedDate = days[day];
-return `${formattedDate}, ${hours};${minutes}`;
+return `${formattedDate}, ${hours}:${minutes}`;
 
 }
 
