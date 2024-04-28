@@ -11,6 +11,14 @@ body {
   font-size: 60px; 
 }
 
+.search-form-input {
+     background-color: rgb(216, 216, 245);
+     border: none;
+     border-radius: 6px;
+     width: 80%;
+     padding: 15px 20px;
+     font-size: 16px;
+}
     
 
 .weather-app-title, .Main-city, .current-date-time, footer {
