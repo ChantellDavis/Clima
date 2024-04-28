@@ -2,6 +2,9 @@ body {
     background-color: rgb(216, 216, 245) ;
 }
 
+form {
+    
+}
 .weather-app-title, .Main-city, .current-date-time, footer {
     text-align: center;
 }
@@ -9,5 +12,9 @@ body {
 .main-box {
 background-color: white;
 max-width: 600px;
-margin: 0 auto;
+margin: 30px auto;
+padding: 30px;
+box-shadow: 0 30px 50px rgba(65,50,100,.08);
+border: none;
+border-radius: 15px;
 }
