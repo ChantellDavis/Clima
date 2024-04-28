@@ -2,6 +2,10 @@ body {
     background-color: rgb(216, 216, 245) ;
 }
 
+.weather-app-title, .Main-city, .current-date-time, footer {
+    text-align: center;
+}
+
 .main-box {
 background-color: white;
 max-width: 600px;
