@@ -18,14 +18,20 @@
     </h1>
     <div class="main-box">
       <header>
-        <form class="search-form">
+        <form class="search-form" id="search-form">
           <input
             class="search-form-input"
             type="search"
             placeholder="enter a city"
             required
+            id="search-form-input"
           />
-          <input class="search-form-button" type="submit" value="search" />
+          <input
+            class="search-form-button"
+            id="search-form-button"
+            type="submit"
+            value="search"
+          />
         </form>
       </header>
       <main>
@@ -38,7 +44,7 @@
           <p>Humidity: 71%, Wind: 3.6km/h</p>
         </div>
 
-        <div class="current-temp"><h2>☀️75°F</h2></div>
+        <div class="current-temp"><h2 id="current-temp">☀️75°F</h2></div>
       </main>
     </div>
 
