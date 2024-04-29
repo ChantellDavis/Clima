@@ -3,6 +3,8 @@ function search(event) {
     let searchFormInput = document.querySelector("#search-form-input");
     let currentCity = document.querySelector("#current-city");
     currentCity.innerHTML = searchFormInput.value 
+
+    
 }
 
 function formatDate(date) {
