@@ -4,7 +4,7 @@ function search(event) {
     let currentCity = document.querySelector("#current-city");
     currentCity.innerHTML = searchFormInput.value 
 
-    
+
 }
 
 function formatDate(date) {
@@ -31,8 +31,8 @@ let days = [
 ];
 
 
-let formattedDate = days[day];
-return `${formattedDate} ${hours}:${minutes}`;
+let formattedDay = days[day];
+return `${formattedDay} ${hours}:${minutes}`;
 
 }
 
